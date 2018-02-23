@@ -6,7 +6,7 @@ const AddressBook = main.AddressBook;
 var adrianContact = new Contact('Adrian');
 var addressBook = new AddressBook();
 addressBook.addContact(adrianContact);
-var errorMessage = 'Should return Adian\'s contact';
+var errorMessage = 'Should return Adrian\'s contact';
 // Passed test - should pint nothing to the console
 console.log('--------Passed test--------');
 console.assert(addressBook.getContact(0) === adrianContact, errorMessage);
